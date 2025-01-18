@@ -1,7 +1,9 @@
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className="m-auto flex flex-col">
+        <h2>This is homepage</h2>
+    </div>
   )
 }
 

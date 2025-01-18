@@ -3,7 +3,7 @@ import Header from "../components/header/Header"
 
 const Main = () => {
   return (
-    <div>
+    <div className="m-auto flex flex-col mt-6">
         <Header></Header>
         <Outlet></Outlet>
     </div>
